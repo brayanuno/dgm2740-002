@@ -1,0 +1,28 @@
+/*---------NAV GOES HERE-----------*/
+nav {
+    ul {
+        margin: 0 auto; 
+        width: 75rem;
+    }
+    ul li {
+        border: none;
+        border-right: 1px solid $secondaryColor;
+        width: 10%;   
+    }
+    ul li a{
+        
+    }
+}
+
+/*---------MAIN GOES HERE-----------*/
+main {
+    figure.visit-image {
+        width: 33.3%;
+        float: right;
+        margin-left: $gutter;
+    }
+    
+    figure.visit-image img {
+        width: 100%;
+    }
+}
